@@ -17,4 +17,48 @@ namespace GBMFDB
             InitializeComponent();
         }
     }
+    
+    private void submitButton_Click(object sender, EventArgs e)
+        {
+            if (drillCheckBox.Checked)
+            {
+                MessageBox.Show("You have selected Drill");
+            }
+
+            if (impactdriverCheckBox.Checked)
+            {
+                MessageBox.Show("You have selected Impact Driver");
+            }
+
+            if (aircompressorCheckBox.Checked)
+            {
+                MessageBox.Show("You have selected Air Compressor");
+            }
+
+            if (grinderCheckBox.Checked)
+            {
+                MessageBox.Show("You have selected Grinder");
+            }
+
+            if (reciprocatingsawcheckBox.Checked)
+            {
+                MessageBox.Show("You have selected Reciprocating Saw");
+            }
+
+            if (powerratchetsetCheckBox.Checked)
+            {
+                MessageBox.Show("You have selected Power Ratchet Set");
+            }
+
+            if (sidegrinderCheckBox.Checked)
+            {
+                MessageBox.Show("You have selected Side Grinder");
+            }
+
+            if (powersanderCheckBox.Checked)
+            {
+                MessageBox.Show("You have selected Power Sander");
+            }
+
+        }
 }
